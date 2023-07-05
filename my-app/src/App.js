@@ -1,15 +1,18 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 
 const SiteLayout = () => {
   return (
     <div>
       <header>
-        <img src="arquivos/bemed_logotipo_branco.png"></img>
+        <img src="../arquivos/bemedLogotipoBranco.png" alt=""></img>
         <nav>
           <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/produtos">Produtos</a></li>
-            <li><a href="/contato">Contato</a></li>
+            <li><a>Quem Somos</a></li>
+            <li><a>Produtos</a></li>
+            <li><a>Inscreva-se</a></li>
+            <li><a>Trabalhe Conosco</a></li>
+            <li><a>Cotação Digital</a></li>
           </ul>
         </nav>
       </header>
